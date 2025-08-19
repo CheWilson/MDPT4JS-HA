@@ -212,6 +212,14 @@ python experiments/run_single_method.py MDPT4JS-HA --servers 500 --dc-size 50 --
 ```bash
 # Test all saved models
 python experiments/model_testing.py --servers 500 --dc-size 50 --ac-configs 2 --episodes 100 --jobs 100 --csv ./data/raw/test.csv
+
+# Generated Files:
+test_results/
+├── test_results.npy                   # All test results
+├── rejection_rates.npy                # Rejection rate data
+├── simulation_times.npy               # Simulation time data
+├── model_testing_summary.csv          # Test results summary
+└── container_config_comparison.png    # Container configuration comparison 
 ```
 
 ## 6. Configuration
@@ -253,5 +261,6 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
