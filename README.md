@@ -211,7 +211,7 @@ python experiments/run_single_method.py MDPT4JS-HA --servers 500 --dc-size 50 --
 ### 5.3 Model Testing
 ```bash
 # Test all saved models
-python experiments/model_testing.py --servers 500 --dc-size 50 --ac-configs 2 --episodes 100 --jobs 100 --csv ./data/raw/test.csv
+python experiments/model_testing.py --servers 500 --dc-size 50 --ac-configs 2 6 10 --episodes 100 --jobs 100 --csv ./data/raw/test.csv
 
 # Generated Files:
 test_results/
@@ -261,6 +261,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
