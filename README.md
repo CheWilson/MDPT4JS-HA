@@ -22,7 +22,7 @@ A comprehensive deep reinforcement learning framework for cloud task scheduling 
 ###  Clone this project
 ```bash
 git clone https://github.com/CheWilson/MDPT4JS-HA.git
-cd rl_task_scheduling
+cd MDPT4JSHA
 ```
 ### Create New Conda Environment
 ```bash
@@ -266,6 +266,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
