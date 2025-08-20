@@ -27,7 +27,7 @@ cd MDPT4JS-HA
 ### Create New Conda Environment
 ```bash
 # Create environment with Python 3.11.7
-conda create -n rl_scheduling python = 3.11.7 -y
+conda create -n rl_scheduling python 3.11.7 -y
 
 # Activate environment
 conda activate rl_scheduling
@@ -266,6 +266,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
