@@ -47,12 +47,12 @@ rl_task_scheduling/
 ├── requirements.txt                 #  依賴包列表
 ├── README.md                        #  項目文檔
 │
-├── src/                            #  核心源碼模組
+├── src/                            #  核心模組
 │   ├── __init__.py
 │   ├── environment/                #  雲端環境模擬
 │   │   ├── __init__.py
 │   │   ├── environment.py          # 三層資源架構 (DC→Server→AC)
-│   │   ├── virtual_clock.py        # 虛擬時鐘管理
+│   │   ├── virtual_clock.py        # 虛擬時間管理
 │   │   └── job_dag.py              # 作業和任務DAG管理
 │   │
 │   ├── agents/                     #  強化學習代理
@@ -100,8 +100,8 @@ rl_task_scheduling/
 │   ├── __init__.py
 │   ├── run_comparison.py          # 方法比較實驗
 │   ├── run_single_method.py       # 單一方法訓練
-│   ├── model_testing.py           # 模型測試腳本
-│   └── generate_gif_visualization.py # GIF 生成腳本
+│   ├── model_testing.py           # 模型測試
+│   └── generate_gif_visualization.py # GIF 生成
 │
 ├── data/                           #  數據文件目錄
 │   └── raw/
@@ -266,6 +266,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
