@@ -19,6 +19,11 @@ A comprehensive deep reinforcement learning framework for cloud task scheduling 
 
 ## 2. Installation
 
+###  Clone this project
+```bash
+git clone https://github.com/YOUR_USERNAME/rl_task_scheduling.git
+cd rl_task_scheduling
+```
 ### Create New Conda Environment
 ```bash
 # Create environment with Python 3.11.7
@@ -261,6 +266,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
