@@ -72,13 +72,13 @@ rl_task_scheduling/
 │   │
 │   ├── schedulers/                 #  基準調度算法
 │   │   ├── __init__.py
-│   │   ├── base_scheduler.py      # 調度器基類
+│   │   ├── base_scheduler.py      # 排程器
 │   │   ├── first_fit.py           # First Fit 調度器
 │   │   └── random_fit.py          # Random Fit 調度器
 │   │
 │   ├── data/                       #  數據管理
 │   │   ├── __init__.py
-│   │   ├── job_manager.py         # 作業數據管理器
+│   │   ├── job_manager.py         # 作業數據管理
 │   │   └── replay_buffer.py       # 經驗回放緩衝區
 │   │
 │   ├── training/                   #  訓練模組
@@ -96,7 +96,7 @@ rl_task_scheduling/
 │   ├── reproducibility.py         # 隨機種子設置
 │   └── model_utils.py             # 模型保存/加載工具
 │
-├── experiments/                    #  實驗腳本
+├── experiments/                    #  實驗
 │   ├── __init__.py
 │   ├── run_comparison.py          # 方法比較實驗
 │   ├── run_single_method.py       # 單一方法訓練
@@ -109,7 +109,7 @@ rl_task_scheduling/
 │       └── test.csv               # 測試數據集
 │
 ├── models/                         # 按容器配置分組的訓練模型
-│   ├── ac2/                       # AC=2配置 (1000總容器)
+│   ├── ac2/                       # AC=2 配置 (1000總容器)
 │   │   ├── dqn/
 │   │   │   ├── dc_Q_ep100.pth
 │   │   │   ├── dc_Q_target_ep100.pth
@@ -137,7 +137,7 @@ rl_task_scheduling/
 │
 └── results/                        #  按實驗配置分組的結果
     ├── ac2/                       # AC=2 配置的實驗結果
-    │   ├── plots/                 #  靜態圖表
+    │   ├── plots/                 #  圖表
     │   │   ├── batch_power_consumption_comparison_original.png
     │   │   ├── batch_power_consumption_comparison_smoothed.png
     │   │   ├── training_losses_comparison.png
@@ -266,6 +266,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
