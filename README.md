@@ -11,8 +11,8 @@ A comprehensive deep reinforcement learning framework for cloud task scheduling 
 
 - **OS**: Windows 10/11, Linux (Ubuntu 20.04+), macOS
 - **Python**: 3.11.7 (recommended) or 3.10+
-- **PyTorch**: 2.5.1+cu118 (GPU) or 2.5.1 (CPU)
-- **CUDA**: 11.8 (for GPU acceleration)
+- **PyTorch**: 2.5.1+cu129 (GPU) or 2.5.1 (CPU)
+- **CUDA**: 12.9 (for GPU acceleration)
 - **GPU**: 16GB VRAM
 - **Memory**: 16GB RAM  
 
@@ -267,6 +267,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
