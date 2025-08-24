@@ -33,7 +33,7 @@ conda create -n rl_scheduling python=3.11.7 -y
 # Activate environment
 conda activate rl_scheduling
 
-# Install PyTorch with CUDA 11.8 (recommended)
+# Install PyTorch with CUDA 12.9 (recommended)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu129
 
 # Install other dependencies
@@ -267,6 +267,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
