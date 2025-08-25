@@ -203,7 +203,7 @@ models/
 ├── ac6/[method]/      # Trained models for AC=6 
 └── ac10/[method]/     # Trained models for AC=10 
 ```
-
+> **Note**: dc-size 指的是一個dc下有多少個server。
 ### 5.2 Single Algorithm Training
 ```bash
 # Train DQN 
@@ -267,6 +267,7 @@ visualization_results/gifs/
 └── random_fit_ac2_100jobs.gif        # Random Fit scheduling process animation
 
 ```
+
 
 
 
